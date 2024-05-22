@@ -1,0 +1,433 @@
+{
+  "hash": "22ca950da34faf9a0483",
+  "version": "5.91.0",
+  "time": 138,
+  "builtAt": 1713995228794,
+  "publicPath": "auto",
+  "outputPath": "/Users/junkong/AiCherish/study-webpack/11-flow/dist",
+  "assetsByChunkName": {
+    "entry1": [
+      "entry1.js"
+    ],
+    "entry2": [
+      "entry2.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "entry1.js",
+      "size": 1642,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 1642
+      },
+      "chunkNames": [
+        "entry1"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "entry1"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "entry2.js",
+      "size": 1642,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 1642
+      },
+      "chunkNames": [
+        "entry2"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "entry2"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 96,
+      "sizes": {
+        "javascript": 96
+      },
+      "names": [
+        "entry1"
+      ],
+      "idHints": [],
+      "runtime": [
+        "entry1"
+      ],
+      "files": [
+        "entry1.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "9a531fe2ee678afa14bb",
+      "childrenByOrder": {},
+      "id": "entry1",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "entry1",
+          "request": "./src/entry1.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 96,
+      "sizes": {
+        "javascript": 96
+      },
+      "names": [
+        "entry2"
+      ],
+      "idHints": [],
+      "runtime": [
+        "entry2"
+      ],
+      "files": [
+        "entry2.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "84ab158fbdc0bf1c303c",
+      "childrenByOrder": {},
+      "id": "entry2",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "entry2",
+          "request": "./src/entry2.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 70,
+      "sizes": {
+        "javascript": 70
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/entry1.js",
+      "name": "./src/entry1.js",
+      "nameForCondition": "/Users/junkong/AiCherish/study-webpack/11-flow/src/entry1.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/entry1.js",
+      "issuerId": null,
+      "chunks": [
+        "entry1"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/entry1.js",
+          "loc": "entry1",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 70,
+      "sizes": {
+        "javascript": 70
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/entry2.js",
+      "name": "./src/entry2.js",
+      "nameForCondition": "/Users/junkong/AiCherish/study-webpack/11-flow/src/entry2.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/entry2.js",
+      "issuerId": null,
+      "chunks": [
+        "entry2"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/entry2.js",
+          "loc": "entry2",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 26,
+      "sizes": {
+        "javascript": 26
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/title.js",
+      "name": "./src/title.js",
+      "nameForCondition": "/Users/junkong/AiCherish/study-webpack/11-flow/src/title.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/entry1.js",
+      "issuerName": "./src/entry1.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/entry1.js",
+          "name": "./src/entry1.js",
+          "id": "./src/entry1.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/title.js",
+      "issuerId": "./src/entry1.js",
+      "chunks": [
+        "entry1",
+        "entry2"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/entry1.js",
+          "module": "./src/entry1.js",
+          "moduleName": "./src/entry1.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/entry1.js",
+          "resolvedModule": "./src/entry1.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./title",
+          "loc": "1:14-32",
+          "moduleId": "./src/entry1.js",
+          "resolvedModuleId": "./src/entry1.js"
+        },
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/entry2.js",
+          "module": "./src/entry2.js",
+          "moduleName": "./src/entry2.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/entry2.js",
+          "resolvedModule": "./src/entry2.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./title",
+          "loc": "1:14-32",
+          "moduleId": "./src/entry2.js",
+          "resolvedModuleId": "./src/entry2.js"
+        },
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/title.js",
+          "module": "./src/title.js",
+          "moduleName": "./src/title.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger1-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/loaders/logger2-loader.js!/Users/junkong/AiCherish/study-webpack/11-flow/src/title.js",
+          "resolvedModule": "./src/title.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "1:0-14",
+          "moduleId": "./src/title.js",
+          "resolvedModuleId": "./src/title.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 1:0-14"
+      ],
+      "depth": 1
+    }
+  ],
+  "entrypoints": {
+    "entry1": {
+      "name": "entry1",
+      "chunks": [
+        "entry1"
+      ],
+      "assets": [
+        {
+          "name": "entry1.js",
+          "size": 1642
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1642,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "entry2": {
+      "name": "entry2",
+      "chunks": [
+        "entry2"
+      ],
+      "assets": [
+        {
+          "name": "entry2.js",
+          "size": 1642
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1642,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "entry1": {
+      "name": "entry1",
+      "chunks": [
+        "entry1"
+      ],
+      "assets": [
+        {
+          "name": "entry1.js",
+          "size": 1642
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1642,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "entry2": {
+      "name": "entry2",
+      "chunks": [
+        "entry2"
+      ],
+      "assets": [
+        {
+          "name": "entry2.js",
+          "size": 1642
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1642,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}

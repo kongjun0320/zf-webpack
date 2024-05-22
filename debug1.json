@@ -1,0 +1,62 @@
+{
+  "modules": [
+    {
+      "id": "./src/entry1.js",
+      "names": ["entry1"],
+      "dependencies": {}
+    },
+    {
+      "id": "./src/title.js",
+      "names": ["entry1", "entry2"],
+      "dependencies": {}
+    },
+    {
+      "id": "./src/entry2.js",
+      "names": ["entry2"],
+      "dependencies": {}
+    }
+  ],
+  "chunks": [
+    {
+      "name": "entry1",
+      "entryModule": {
+        "id": "./src/entry1.js",
+        "names": ["entry1"],
+        "dependencies": {}
+      },
+      "modules": [
+        {
+          "id": "./src/entry1.js",
+          "names": ["entry1"],
+          "dependencies": {}
+        },
+        {
+          "id": "./src/title.js",
+          "names": ["entry1", "entry2"],
+          "dependencies": {}
+        }
+      ]
+    },
+    {
+      "name": "entry2",
+      "entryModule": {
+        "id": "./src/entry2.js",
+        "names": ["entry2"],
+        "dependencies": {}
+      },
+      "modules": [
+        {
+          "id": "./src/title.js",
+          "names": ["entry1", "entry2"],
+          "dependencies": {}
+        },
+        {
+          "id": "./src/entry2.js",
+          "names": ["entry2"],
+          "dependencies": {}
+        }
+      ]
+    }
+  ],
+  "assets": []
+}
