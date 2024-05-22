@@ -50,13 +50,16 @@ class Compilation {
         modules: this.modules.filter((m) => m.names.includes(entryName)),
       };
       this.chunks.push(chunk);
-      // 9. 再把每个 chunk 转换成一个单独的文件加入到输入列表
+    }
+    // 9. 再把每个 chunk 转换成一个单独的文件加入到输入列表
+    this.chunks.forEach((chunk) => {
       const outputFilename = this.options.output.filename.replace(
         '[name]',
         chunk.name
       );
       this.assets[outputFilename] = getSourceCode(chunk);
-    }
+    });
+
     onCompiled(
       null,
       {
